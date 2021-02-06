@@ -55,11 +55,11 @@ ivan.say();
 ---------------
 * It-academy
 * Udemy: Online Courses
-    * JavaScript + React * finish soon…
+    * JavaScript + React finish soon…
 * RS School
     * JavaScript/Front-end (start to stady)
 
 ### English ###
 -----------------
 Intermidiate (B1)
-     * I'm learning English with a private tutor. And I try to wath films with English subtitles.
+     *I'm learning English with a private tutor. And I try to wath films with English subtitles.*
