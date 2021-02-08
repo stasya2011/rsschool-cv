@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <main class="wrapper">
+
+        <aside class="wrapperLeft">
+            <img src="imgs/me.jpg" alt="Photo">
+
+
+            <section class="contacts">
+                <h3>Contacs</h3>
+                <ul>
+                    <li><img src="imgs/4.png" alt="Geo">Minsk</li>
+                    <li><img src="imgs/1.png" alt="Phone"><a class = "link" href="tel:+375447421992">375447421992</a></li>
+                    <li><img src="imgs/2.png" alt="Email"><a class = "link" href="mailto:s.geleisha@gmail.com">s.geleisha@gmail.com</a></li>
+                    <li><img src="imgs/3.png" alt="skype"><a class = "link" href="skype:stasya_grinkevich?chat"> stasya_grinkevich</a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="language">
+                <h3>English</h3>
+                <ul>
+                    <li> <b>Intermediate (B1) </b>
+                        <p class="smallText"><br> <i>I'm learning English with a private tutor. And I try to wath films
+                                with English subtitles.</i></p>
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <section class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>sass</li>
+
+                </ul>
+
+            </section>
+
+        </aside>
+
+        <article class="wrapperRight">
+            <header>
+                <h1 class="h1 goal">Anastasya Geleisha</h1>
+            </header>
+
+
+            <section class="additionAducation">
+                <h3 class="position after">Education</h3>
+                <table class="table" cellpadding=5>
+                    <tr>
+                        <td>
+                            06.06.2020 - 07.10.2020
+                        </td>
+                        <td>
+                            It-academy
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>20.12.2020 - finish soon…</td>
+                        <td>Udemy: Online Courses
+                            <p>
+                                <i>JavaScript + React</i>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>28.02.2021 - ... </td>
+                        <td>RS School
+                            <p>
+                                <i>JavaScript/Front-end (start to stady)</i>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+            </section>
+            <section class="aboutMe">
+                <h3 class="position after">Summary</h3>
+                <p>
+                    I strive for new knowledges. I'm patient and friendly. My goal: be <b>a good specialist</b>.
+                </p>
+
+            </section>
+
+            <section class="proj">
+                <h3 class="position after">Code examples</h3>
+                <ul>
+                    <li>
+                        <a class = "link" href="https://stasya2011.github.io/">About_TRX</a>
+                    </li>
+
+                    <div class="code">
+                        <pre>
+                             <code>
+                        class User{
+                            constructor(name, age){
+                                this.name = name;
+                                this.hideAge = age;
+                            }
+                            #surname =  "Geleisha"; 
+                            say = () => {
+                                console.log("имя: " + this.name + this.#surname +  ";
+                                 " + " возраст: " + this.hideAge);
+                            }
+                            get surname(){
+                                return this.#surname;
+                            }
+                            set surname(age){
+                                if(typeof age == "string"){
+                                    this.#surname = age;
+                                }else{
+                                    console.log("Недорустимое значение");
+                                } 
+                            };
+                        }</code>
+                    </pre>
+
+                    </div>
+
+                </ul>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>
