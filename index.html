@@ -62,7 +62,7 @@
 
             <section class="additionAducation">
                 <h3 class="position after">Education</h3>
-                <table class="table" cellpadding="5">
+                <table class="table" cellpadding=5>
                     <tr>
                         <td>
                             06.06.2020 - 07.10.2020
@@ -106,49 +106,39 @@
                     <li>
                         <a class = "link" href="https://stasya2011.github.io/">About_TRX</a>
                     </li>
-                    <span class="code">
+
+                    <div class="code">
                         <pre>
                              <code>
-    class User{
-        constructor(name, age){
-        this.name = name;
-        this.hideAge = age
-    }
-    #surname =  "Geleisha"; 
-    say = () => {
-        console.log("имя: " + this.name + this.#surname +  ";
-        " + " возраст: " + this.hideAge);
-    }
-    get surname(){
-        return this.#surname;
-    }
-                                        
-    set surname(age){
-        if(typeof age == "string"){
-            this.#surname = age;
-        }else{
-            console.log("Недорустимое значение");
-        } 
-    };
-}                             
-                        </code>
+                        class User{
+                            constructor(name, age){
+                                this.name = name;
+                                this.hideAge = age;
+                            }
+                            #surname =  "Geleisha"; 
+                            say = () => {
+                                console.log("имя: " + this.name + this.#surname +  ";
+                                 " + " возраст: " + this.hideAge);
+                            }
+                            get surname(){
+                                return this.#surname;
+                            }
+                            set surname(age){
+                                if(typeof age == "string"){
+                                    this.#surname = age;
+                                }else{
+                                    console.log("Недорустимое значение");
+                                } 
+                            };
+                        }</code>
                     </pre>
 
-                </span>
+                    </div>
 
                 </ul>
             </section>
         </article>
     </main>
-    <footer class="footer">
-        <div class="footerWrapper">
-            <a href="https://github.com/stasya2011"> <img class="git" src="imgs/github.svg" alt="my link"> </a>
-            <a href="https://rs.school/js/"><img class="rss" src="imgs/rss.svg" alt="it is the best school!! :)"></a>
-            <h6>Minsk 2021</h6>
-        </div>
-        
-      
-    </footer>
 </body>
 
 </html>
